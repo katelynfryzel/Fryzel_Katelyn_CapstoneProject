@@ -1,2 +1,4 @@
 # Fryzel_Katelyn_CapstoneProject
-Web development capstone project
+Web Development Capstone Project
+
+In-Progress development of virtual pet, tamagotchi-like website game
