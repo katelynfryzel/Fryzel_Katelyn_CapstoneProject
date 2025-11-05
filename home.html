@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="project.css">
+	<title>Working Title</title>
+	<meta charset="utf-8">
+</head>
+
+<body>
+<div id="wrapper">
+	<header>
+		<h1>
+			<a href="home.html">
+				Capstone Project <!-- i have not thought of a cool title just yet...  -->
+			</a>
+		</h1>
+	</header>
+	<nav>
+		<ul>
+			<li>
+				<a href="home.html"> Home</a>
+			</li>
+			<li>
+				<a href="pets.html"> Pets </a>
+			</li>
+			<li>
+				<a href="game.html"> Game</a>
+			</li>
+		</ul>
+	</nav>
+	<nav id="rightnav">
+		<ul>
+			<li>
+				<a href="pets.html"> Pets </a>
+			</li>
+			<li>
+				<img/>
+			</li>
+		</ul>
+		<div class="image-grid">
+			<a href="link1.html">
+				<img src="images/pic1.jpg" alt="pet 1">
+			</a>
+			<a href="link2.html">
+				<img src="images/pic2.jpg" alt="pet 2">
+			</a>
+			<a href="link3.html">
+				<img src="images/pic3.jpg" alt="pet 3">
+			</a>
+			<a href="link4.html">
+				<img src="images/pic4.jpg" alt="pet 4">
+			</a>
+		</div>
+		<!-- soon-to-be music controller. i do not know how to add this yet, but i want to.  -->
+	</nav>
+	<main>
+		<h2> Pet Adoption </h2>
+		<section id="pet-form-section">
+			<h2>Adopt Your Pet Companion</h2>
+			<form id="pet-form" action="https://webdevbasics.net/scripts/demo.php" method="post">
+				<label for="pet-type">Choose Your Pet:</label>
+				<select id="pet-type" name="pet-type" required>
+					<option value="">-- Select a Pet --</option>
+					<option value="pet1">Cat</option>
+					<option value="pet2">Dog</option>
+					<option value="pet3">Rabbit</option>
+					<option value="pet4">Bird</option>
+					<option value="pet5">Snake</option>
+					<option value="pet6">Spider</option>
+				</select>
+
+				<label for="pet-name">Pet Name:</label>
+				<input type="text" id="pet-name" name="pet-name" placeholder="Enter your pet's name" required>
+
+				<div class="checkbox-group">
+					<input type="checkbox" id="immortal" name="immortal">
+					<label for="immortal">Grant Immortality</label>
+				</div>
+
+				<button type="submit">Register Pet</button>
+			</form>
+		</section>
+		<!-- game description? This will be instructions and how to play,
+		and will also serve as the entry point for the game itself. randomize mechanic and choose your pet
+		to-be-included-->
+
+	</main>
+	<footer>
+		Copyright &copy; 2025 INSERT COOL NAME <br/>
+		<a href="mailto:kf00175@my.westga.edu"> kf00175@my.westga.edu </a>
+	</footer>
+</div>
+</body>
+</html>
