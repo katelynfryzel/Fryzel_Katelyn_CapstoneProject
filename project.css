@@ -92,6 +92,29 @@ nav,
 nav { float: left; }
 
 #rightnav { float: right; }
+#rightnav audio {
+	width: 90%;
+	margin: 10px auto;
+	display: block;
+	background-color: #9B3146;
+	border: 2px solid #FBE4E3;
+	border-radius: 12px;
+	box-shadow: 0 0 8px rgba(251, 228, 227, 0.4);
+	padding: 5px;
+}
+
+#rightnav audio::-webkit-media-controls-panel {
+	background-color: #842A3B;
+	border-radius: 10px;
+}
+
+#rightnav audio::-webkit-media-controls-play-button,
+#rightnav audio::-webkit-media-controls-mute-button,
+#rightnav audio::-webkit-media-controls-timeline,
+#rightnav audio::-webkit-media-controls-current-time-display,
+#rightnav audio::-webkit-media-controls-time-remaining-display {
+	filter: invert(95%) sepia(10%) saturate(200%) hue-rotate(320deg);
+}
 
 nav a {
     color: #FFF5F2;
