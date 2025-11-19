@@ -271,6 +271,23 @@ footer {
     transform: scale(1.05);
 }
 
+#products button {
+	background-color: #842A3B;
+	border: none;
+	border-radius: 10px;
+	color: #FFF5F2;
+	cursor: pointer;
+	font-size: 1em;
+	font-weight: bold;
+	padding: 0.8em;
+	transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#products button:hover {
+	background-color: #9B3146;
+	transform: scale(1.05);
+}
+
 @media (max-width: 600px) {
     #pet-form-section {
         padding: 1em;
