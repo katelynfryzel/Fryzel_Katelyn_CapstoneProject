@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="project.css">
+	<title>Working Title</title>
+	<meta charset="utf-8">
+</head>
+
+<body>
+<div id="wrapper">
+	<header>
+		<h1>
+			<a href="index.html">
+				Capstone Project <!-- i have not thought of a cool title just yet...  -->
+			</a>
+		</h1>
+	</header>
+	<nav>
+		<ul>
+			<li>
+				<a href="index.html">Home</a>
+			</li>
+			<li>
+				<a href="pets.html">Pets</a>
+			</li>
+			<li>
+				<a href="game.html">Game</a>
+			</li>
+			<li>
+				<a href="products.html">Products</a>
+			</li>
+		</ul>
+	</nav>
+	<nav id="rightnav">
+		<ul>
+			<li>
+				<a href="pets.html">TUNES</a>
+				<div class="audio-player">
+					<audio controls>
+						<source src="music.mp3" type="audio/mpeg">
+						<source src="music.ogg" type="audio/ogg">
+					</audio>
+				</div>
+			</li>
+		</ul>
+	</nav>
+	<main>
+		<div id="products">
+		<h2>Products</h2>
+
+		<div class="product">
+			<h3>Pets T-Shirt</h3>
+			<p>$25</p>
+			<form action="https://ww10.aitsafe.com/cf/add.cfm" method="post">
+				<input type="hidden" name="userid" value="C5391256">
+				<input type="hidden" name="product" value="Pets T-Shirt">
+				<input type="hidden" name="price" value="25">
+				<input type="hidden" name="return" value="https://katelynfryzel.github.io/Fryzel_Katelyn_CapstoneProject/products.html">
+				<input type="submit" value="Add to Cart">
+			</form>
+		</div>
+
+		<div class="product">
+			<h3>Cat Hoodie</h3>
+			<p>$40</p>
+			<form action="https://ww10.aitsafe.com/cf/add.cfm" method="post">
+				<input type="hidden" name="userid" value="C5391256">
+				<input type="hidden" name="product" value="Cat Hoodie">
+				<input type="hidden" name="price" value="40">
+				<input type="hidden" name="return" value="https://katelynfryzel.github.io/Fryzel_Katelyn_CapstoneProject/products.html">
+				<input type="submit" value="Add to Cart">
+			</form>
+		</div>
+
+		<div class="product">
+			<h3>Dog Plush</h3>
+			<p>$22</p>
+			<form action="https://ww10.aitsafe.com/cf/add.cfm" method="post">
+				<input type="hidden" name="userid" value="C5391256">
+				<input type="hidden" name="product" value="Dog Plush">
+				<input type="hidden" name="price" value="22">
+				<input type="hidden" name="return" value="https://katelynfryzel.github.io/Fryzel_Katelyn_CapstoneProject/products.html">
+				<input type="submit" value="Add to Cart">
+			</form>
+		</div>
+
+		<a href="https://ww10.aitsafe.com/cf/cart.cfm?userid=12345678">
+			<br/><button>View Cart</button>
+		</a>
+		</div>
+	</main>
+	<footer>
+		Copyright &copy; 2025 INSERT COOL NAME <br/>
+		<a href="mailto:kf00175@my.westga.edu"> kf00175@my.westga.edu </a>
+	</footer>
+</div>
+</body>
+
+</html>
