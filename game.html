@@ -6,7 +6,6 @@
 	<title>Working Title</title>
 	<meta charset="utf-8">
 </head>
-
 <body>
 <div id="wrapper">
 	<header>
@@ -43,17 +42,35 @@
 	</nav>
 	<main>
 		<h2> CONTENT </h2>
-		<p>
-			CONTENT CONTENT CONTENT
-			<!-- this will be where the game itself will be.  -->
-		</p>
+		<section id="game-section">
+			<h2>My Pet</h2>
 
+			<div id="game-container">
+				<div id="pet"></div>
+				<div id="need-hunger" class="need"></div>
+				<div id="need-happiness" class="need"></div>
+				<div id="cleanliness-need" class="need"></div>
+				<div id="sleepiness-need" class="need"></div>
+			</div>
+
+			<div id="game-controls">
+				<button id="feed-btn">Feed</button>
+				<button id="play-btn">Play</button>
+			</div>
+
+			<div id="game-stats">
+				<p>Hunger: <span id="hunger-value">100</span></p>
+				<p>Happiness: <span id="happiness-value">100</span></p>
+				<p>Cleanliness: <span id="cleanliness-value">100</span></p>
+				<p>Sleepiness: <span id="sleepiness-value">100</span></p>
+			</div>
+		</section>
 	</main>
 	<footer>
 		Copyright &copy; 2025 INSERT COOL NAME <br/>
 		<a href="mailto:kf00175@my.westga.edu"> kf00175@my.westga.edu </a>
 	</footer>
+	<script src="game.js"></script>
 </div>
 </body>
-
 </html>
