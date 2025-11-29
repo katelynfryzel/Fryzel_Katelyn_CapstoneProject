@@ -1,3 +1,7 @@
+/**
+ * NEEDS TO BE FINISHED. Obviously will end up far more complicated, but i havent quite figured out how to do the things i want to just yet :(
+ */
+
 let hunger = 100;     
 let happiness = 100;
 let cleanliness = 100;
@@ -6,12 +10,12 @@ let sleepiness = 100;
 const hungerValue = document.getElementById("hunger-value");
 const happinessValue = document.getElementById("happiness-value");
 const sleepinessValue = document.getElementById("sleepiness-value");
-const cleanlinessValue = document.getElementById("cleanliness-value"); // FIXED ID
+const cleanlinessValue = document.getElementById("cleanliness-value");
 
 const hungerNeed = document.getElementById("need-hunger");
 const happinessNeed = document.getElementById("need-happiness");
 const sleepinessNeed = document.getElementById("sleepiness-need");
-const cleanlinessNeed = document.getElementById("cleanliness-need"); // FIXED ID
+const cleanlinessNeed = document.getElementById("cleanliness-need");
 
 document.getElementById("feed-btn").addEventListener("click", () => {
     hunger = Math.min(100, hunger + 20);
